@@ -6,6 +6,8 @@ The most extensive hardware to do this is designed by osmocom: the [sfp-experime
 
 There is also a [simple breakout I found on the pcbway project share section](https://www.pcbway.com/project/shareproject/SFP_module_board_a42cf104.html). I have ordered some. Results TBD.
 
+[another untested breakout option](https://github.com/aewallin/SFP-Breakout-Board)
+
 ## I2C
 
 SFPs present an EEPROM to the device at addr 0x50. If the SFP is smarter than that, it still needs to emulate an EEPROM so that things will work as defined in the standard (which was written to place an eeprom there). DOM and other special vendor stuff (like lock passwords for the EEPROM) is at 0x51.
